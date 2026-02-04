@@ -2,7 +2,7 @@
   "id": "MAP_SILVER_CAVE_ITEM_ROOMS",
   "name": "SilverCave_ItemRooms",
   "layout": "LAYOUT_SILVER_CAVE_ITEM_ROOMS",
-  "music": "MUS_AQUA_MAGMA_HIDEOUT",
+  "music": "MUS_LIGHTHOUSE",
   "region_map_section": "MAPSEC_SILVER_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_LIGHTHOUSE_4F",
   "name": "Lighthouse_4F",
   "layout": "LAYOUT_LIGHTHOUSE_4F",
-  "music": "MUS_AQUA_MAGMA_HIDEOUT",
+  "music": "MUS_LIGHTHOUSE",
   "region_map_section": "MAPSEC_LIGHTHOUSE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

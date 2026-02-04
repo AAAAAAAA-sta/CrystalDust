@@ -2,7 +2,7 @@
   "id": "MAP_FAST_SHIP_CABINS_SW_SSW_NW",
   "name": "FastShip_Cabins_SW_SSW_NW",
   "layout": "LAYOUT_FAST_SHIP_CABINS_SW_SSW_NW",
-  "music": "MUS_AQUA_MAGMA_HIDEOUT",
+  "music": "MUS_SSAQUA",
   "region_map_section": "MAPSEC_FAST_SHIP",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

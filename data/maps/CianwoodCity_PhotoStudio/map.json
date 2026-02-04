@@ -2,7 +2,7 @@
   "id": "MAP_CIANWOOD_CITY_PHOTO_STUDIO",
   "name": "CianwoodCity_PhotoStudio",
   "layout": "LAYOUT_HOUSE1",
-  "music": "MUS_AQUA_MAGMA_HIDEOUT",
+  "music": "MUS_ECRUTEAK",
   "region_map_section": "MAPSEC_CIANWOOD_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_TEAM_ROCKET_BASE_B1F",
   "name": "TeamRocketBase_B1F",
   "layout": "LAYOUT_TEAM_ROCKET_BASE_B1F",
-  "music": "MUS_AQUA_MAGMA_HIDEOUT",
+  "music": "MUS_GSC_ROCKET_HIDEOUT",
   "region_map_section": "MAPSEC_MAHOGANY_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

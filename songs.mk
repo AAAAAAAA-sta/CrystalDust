@@ -202,7 +202,7 @@ $(MID_SUBDIR)/mus_bug_contest_prep.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G095 -V075
 
 $(MID_SUBDIR)/mus_encounter_kimono.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G099 -V062
+	$(MID) $< $@ -E -R$(STD_REVERB) -G195 -V090
 
 $(MID_SUBDIR)/mus_victory_trainer.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G058 -V091
@@ -1289,3 +1289,105 @@ $(MID_SUBDIR)/se_intro_unown2.s: %.s: %.mid
 
 $(MID_SUBDIR)/se_intro_unown3.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G023 -v100 -P5
+
+$(MID_SUBDIR)/mus_gsc_surf.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G164 -V071
+
+$(MID_SUBDIR)/mus_gsc_pallet.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G159 -V100
+
+$(MID_SUBDIR)/mus_gsc_route1.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G150 -V079
+
+$(MID_SUBDIR)/mus_lighthouse.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
+
+$(MID_SUBDIR)/mus_gsc_route3.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G152 -V083
+
+$(MID_SUBDIR)/mus_route26.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G152 -V086
+
+$(MID_SUBDIR)/mus_gsc_rocket_takeover.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V080
+
+$(MID_SUBDIR)/mus_kimono.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G099 -V062
+
+$(MID_SUBDIR)/mus_ssaqua.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G163 -V090
+
+$(MID_SUBDIR)/mus_gsc_bad_guy.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V070
+
+$(MID_SUBDIR)/mus_gsc_kanto_trainer.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V090
+
+$(MID_SUBDIR)/mus_gsc_route6.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
+
+$(MID_SUBDIR)/mus_gsc_vermilion.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G172 -V090
+
+$(MID_SUBDIR)/mus_gsc_hall_of_fame.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G145 -V079
+
+$(MID_SUBDIR)/mus_eusine.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V079
+
+$(MID_SUBDIR)/mus_theater.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G165 -V090
+
+$(MID_SUBDIR)/mus_gsc_indigo_plateau.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G154 -V090
+
+$(MID_SUBDIR)/mus_gsc_victory_road.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G196 -V090
+
+$(MID_SUBDIR)/mus_gsc_rocket_hideout.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V070
+
+$(MID_SUBDIR)/mus_burned_tower.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G165 -V070
+
+$(MID_SUBDIR)/mus_ecruteak.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G101 -V090
+
+$(MID_SUBDIR)/mus_vs_gsc_champion.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
+
+$(MID_SUBDIR)/mus_gsc_kanto_leader.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G155 -V090
+
+$(MID_SUBDIR)/mus_rg_cerulean.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G167 -V090
+
+$(MID_SUBDIR)/mus_rb_celadon.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G168 -V070
+
+$(MID_SUBDIR)/mus_gsc_mtmoon.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G135 -V070
+
+$(MID_SUBDIR)/mus_gsc_clair.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V070
+
+$(MID_SUBDIR)/mus_gsc_credits.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V090
+
+$(MID_SUBDIR)/mus_gsc_boyk.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G144 -V090
+
+$(MID_SUBDIR)/mus_c_legend.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V090
+
+$(MID_SUBDIR)/mus_route39.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
+
+$(MID_SUBDIR)/mus_magnet.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V090
+
+$(MID_SUBDIR)/mus_gsc_towerdesk.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G197 -V090
+
+$(MID_SUBDIR)/mus_rb_game_corner.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G132 -V090

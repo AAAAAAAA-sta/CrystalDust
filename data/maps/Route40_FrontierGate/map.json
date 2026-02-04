@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE40_FRONTIER_GATE",
   "name": "Route40_FrontierGate",
   "layout": "LAYOUT_ROUTE40_FRONTIER_GATE",
-  "music": "MUS_RG_SEVII_ROUTE",
+  "music": "MUS_C_BATTLE_TOWER",
   "region_map_section": "MAPSEC_ROUTE_40",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

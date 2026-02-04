@@ -51,6 +51,7 @@
 #include "constants/trainer_hill.h"
 #include "constants/weather.h"
 #include "match_call.h"
+#include "data/region_map/mapsec_to_met_location.h"
 
 enum
 {
@@ -118,7 +119,7 @@ static const u8 sBattleTransitionTable_Wild[][2] =
     {B_TRANSITION_SLICE,               B_TRANSITION_WHITEFADE},     // Normal
     {B_TRANSITION_CLOCKWISE_BLACKFADE, B_TRANSITION_GRID_SQUARES},  // Cave
     {B_TRANSITION_BLUR,                B_TRANSITION_GRID_SQUARES},  // Cave with flash used
-    {B_TRANSITION_WAVE,                B_TRANSITION_RIPPLE},        // Water
+    {B_TRANSITION_RIPPLE,              B_TRANSITION_RIPPLE},        // Water
 };
 
 static const u8 sBattleTransitionTable_Trainer[][2] =
@@ -389,7 +390,7 @@ void BattleSetup_StartRoamerBattle(void)
     sub_808BCF4();
     gMain.savedCallback = CB2_EndWildBattle;
     gBattleTypeFlags = BATTLE_TYPE_ROAMER;
-    CreateBattleStartTask(GetWildBattleTransition(), MUS_C_VS_LEGEND_BEAST);
+    CreateBattleStartTask(GetWildBattleTransition(), MUS_C_LEGEND);
     IncrementGameStat(GAME_STAT_TOTAL_BATTLES);
     IncrementGameStat(GAME_STAT_WILD_BATTLES);
     IncrementDailyWildBattles();
@@ -470,7 +471,7 @@ void BattleSetup_StartScriptedWildBattle(void)
     gMain.savedCallback = CB2_EndScriptedWildBattle;
     gBattleTypeFlags = 0;
     if(GetMonData(&gEnemyParty[0], MON_DATA_SPECIES) == SPECIES_SUICUNE)
-        CreateBattleStartTask(GetWildBattleTransition(), MUS_C_VS_LEGEND_BEAST);
+        CreateBattleStartTask(GetWildBattleTransition(), MUS_C_LEGEND);
     else
         CreateBattleStartTask(GetWildBattleTransition(), 0);
     IncrementGameStat(GAME_STAT_TOTAL_BATTLES);
@@ -1473,7 +1474,7 @@ void PlayTrainerEncounterMusic(void)
             music = MUS_ENCOUNTER_SAGE;
             break;
         case TRAINER_ENCOUNTER_MUSIC_OFFICER:
-            music = MUS_ENCOUNTER_OFFICER;
+            music = MUS_GSC_BOYK;
             break;
         case TRAINER_ENCOUNTER_MUSIC_ROCKET:
             music = MUS_ENCOUNTER_ROCKET;
@@ -1482,7 +1483,7 @@ void PlayTrainerEncounterMusic(void)
             music = MUS_ENCOUNTER_ELITE_FOUR;
             break;
         case TRAINER_ENCOUNTER_MUSIC_FISHERMAN:
-            music = MUS_ENCOUNTER_FISHERMAN;
+            music = MUS_GSC_BAD_GUY;
             break;
         case TRAINER_ENCOUNTER_MUSIC_KIMONO:
             music = MUS_ENCOUNTER_KIMONO;

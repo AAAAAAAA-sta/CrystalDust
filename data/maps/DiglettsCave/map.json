@@ -2,7 +2,7 @@
   "id": "MAP_DIGLETTS_CAVE",
   "name": "DiglettsCave",
   "layout": "LAYOUT_DIGLETTS_CAVE",
-  "music": "MUS_RG_VIRIDIAN_FOREST",
+  "music": "MUS_GSC_ROCK_TUNNEL",
   "region_map_section": "MAPSEC_DIGLETTS_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

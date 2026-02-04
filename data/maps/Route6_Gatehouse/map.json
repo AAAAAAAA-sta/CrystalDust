@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE6_GATEHOUSE",
   "name": "Route6_Gatehouse",
   "layout": "LAYOUT_KANTO_GATEHOUSE_VERTICAL",
-  "music": "MUS_RG_ROUTE3",
+  "music": "MUS_GSC_ROUTE3",
   "region_map_section": "MAPSEC_ROUTE_6",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

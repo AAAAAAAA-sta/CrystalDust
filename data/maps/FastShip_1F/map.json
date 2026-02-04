@@ -2,7 +2,7 @@
   "id": "MAP_FAST_SHIP_1F",
   "name": "FastShip_1F",
   "layout": "LAYOUT_FAST_SHIP_1F",
-  "music": "MUS_AQUA_MAGMA_HIDEOUT",
+  "music": "MUS_SSAQUA",
   "region_map_section": "MAPSEC_FAST_SHIP",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

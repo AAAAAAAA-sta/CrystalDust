@@ -1193,7 +1193,7 @@ u16 GetCurrLocationDefaultMusic(void)
 {
     if(gMapHeader.regionMapSectionId == MAPSEC_RADIO_TOWER && FlagGet(FLAG_ROCKETS_IN_RADIO_TOWER))
     {
-        return MUS_ROCKET_TAKEOVER;
+        return MUS_GSC_ROCKET_TAKEOVER;
     }
     return GetLocationMusic(&gSaveBlock1Ptr->location);
 }
@@ -1202,7 +1202,7 @@ u16 GetWarpDestinationMusic(void)
 {
     if(gMapHeader.regionMapSectionId == MAPSEC_RADIO_TOWER && FlagGet(FLAG_ROCKETS_IN_RADIO_TOWER))
     {
-        return MUS_ROCKET_TAKEOVER;
+        return MUS_GSC_ROCKET_TAKEOVER;
     }
     return GetLocationMusic(&sWarpDestination);
 }
@@ -1223,7 +1223,7 @@ void Overworld_PlaySpecialMapMusic(void)
         else if (GetCurrentMapType() == MAP_TYPE_UNDERWATER)
             music = MUS_UNDERWATER;
         else if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
-            music = MUS_SURF;
+            music = MUS_GSC_SURF;
     }
 
     if (music != GetCurrentMapMusic())
@@ -1248,10 +1248,10 @@ static void TransitionMapMusic(void)
         u16 currentMusic = GetCurrentMapMusic();
         if (newMusic != MUS_UNOWN_RADIO && newMusic != MUS_NONE)
         {
-            if (currentMusic == MUS_UNDERWATER || currentMusic == MUS_SURF)
+            if (currentMusic == MUS_UNDERWATER || currentMusic == MUS_GSC_SURF)
                 return;
             if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
-                newMusic = MUS_SURF;
+                newMusic = MUS_GSC_SURF;
         }
         if (newMusic != currentMusic)
         {
@@ -1293,7 +1293,7 @@ void TryFadeOutOldMapMusic(void)
     u16 warpMusic = GetWarpDestinationMusic();
     if (FlagGet(FLAG_DONT_TRANSITION_MUSIC) != TRUE && warpMusic != GetCurrentMapMusic())
     {
-        /*if (currentMusic == MUS_SURF
+        /*if (currentMusic == MUS_GSC_SURF
             && VarGet(VAR_SKY_PILLAR_STATE) == 2
             && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(NONE)
             && gSaveBlock1Ptr->location.mapNum == MAP_NUM(NONE)

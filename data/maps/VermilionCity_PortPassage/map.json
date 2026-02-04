@@ -2,7 +2,7 @@
   "id": "MAP_VERMILION_CITY_PORT_PASSAGE",
   "name": "VermilionCity_PortPassage",
   "layout": "LAYOUT_OLIVINE_CITY_PORT_PASSAGE",
-  "music": "MUS_RG_VERMILLION",
+  "music": "MUS_GSC_VERMILION",
   "region_map_section": "MAPSEC_VERMILION_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

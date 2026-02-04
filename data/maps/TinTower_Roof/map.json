@@ -2,7 +2,7 @@
   "id": "MAP_TIN_TOWER_ROOF",
   "name": "TinTower_Roof",
   "layout": "LAYOUT_TIN_TOWER_ROOF",
-  "music": "MUS_AQUA_MAGMA_HIDEOUT",
+  "music": "MUS_TIN_TOWER",
   "region_map_section": "MAPSEC_TIN_TOWER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

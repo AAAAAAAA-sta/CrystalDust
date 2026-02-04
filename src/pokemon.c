@@ -6331,7 +6331,7 @@ u16 GetBattleBGM(void)
     if (gBattleTypeFlags & BATTLE_TYPE_REGI)
         return MUS_VS_REGI;
     if (gBattleTypeFlags & BATTLE_TYPE_ROAMER)
-        return MUS_C_VS_LEGEND_BEAST;
+        return MUS_C_LEGEND;
     else if (gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK))
         return MUS_VS_JOHTO_TRAINER;
     else if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
@@ -6357,19 +6357,19 @@ u16 GetBattleBGM(void)
             return MUS_VS_ROCKET;
         case TRAINER_CLASS_LEADER:
             if(GetCurrentRegion() == REGION_KANTO)
-                return MUS_RG_VS_GYM_LEADER;
+                return MUS_GSC_KANTO_LEADER;
             else if(GetCurrentRegion() >= REGION_SEVII1 && GetCurrentRegion() <= REGION_SEVII3)
-                return MUS_RG_VS_GYM_LEADER;
+                return MUS_GSC_KANTO_LEADER;
             else // Johto and default
                 return MUS_VS_JOHTO_LEADER;
         case TRAINER_CLASS_CHAMPION:
         case TRAINER_CLASS_PKMN_TRAINER_3: // Mt. Silver Red
-            return MUS_RG_VS_CHAMPION;
+            return MUS_VS_GSC_CHAMPION;
         case TRAINER_CLASS_RIVAL1:
         case TRAINER_CLASS_RIVAL2:
             return MUS_VS_RIVAL;
         case TRAINER_CLASS_ELITE_FOUR:
-            return MUS_VS_ELITE_FOUR;
+            return MUS_VS_JOHTO_LEADER;
         case TRAINER_CLASS_SALON_MAIDEN:
         case TRAINER_CLASS_DOME_ACE:
         case TRAINER_CLASS_PALACE_MAVEN:
@@ -6380,9 +6380,9 @@ u16 GetBattleBGM(void)
             return MUS_VS_FRONTIER_BRAIN;
         default:
             if(GetCurrentRegion() == REGION_KANTO)
-                return MUS_RG_VS_TRAINER;
+                return MUS_GSC_KANTO_TRAINER;
             else if(GetCurrentRegion() >= REGION_SEVII1 && GetCurrentRegion() <= REGION_SEVII3)
-                return MUS_RG_VS_TRAINER;
+                return MUS_GSC_KANTO_TRAINER;
             else // Johto and default
                 return MUS_VS_JOHTO_TRAINER;
         }
@@ -6390,9 +6390,9 @@ u16 GetBattleBGM(void)
     else
     {
         if(GetCurrentRegion() == REGION_KANTO)
-            return MUS_RG_VS_WILD;
+            return MUS_GSC_KANTO_WILD;
         else if(GetCurrentRegion() >= REGION_SEVII1 && GetCurrentRegion() <= REGION_SEVII3)
-            return MUS_RG_VS_WILD;
+            return MUS_GSC_KANTO_WILD;
         else // Johto and default
             return MUS_VS_JOHTO_WILD;
     }

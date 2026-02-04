@@ -613,6 +613,49 @@ gSongTable:: @ 86B49F0
 	song ph_nurse_blend, 2, 2
 	song ph_nurse_held, 2, 2
 	song ph_nurse_solo, 2, 2
+	song mus_gsc_surf, 0, 0
+	song mus_gsc_pallet, 0, 0
+	song mus_gsc_route1, 0, 0
+	song mus_lighthouse, 0, 0
+	song mus_gsc_route3, 0, 0
+	song mus_gsc_viridian_forest, 0, 0
+	song mus_route26, 0, 0
+	song mus_gsc_rocket_takeover, 0, 0
+	song mus_kimono, 0, 0
+	song mus_ssaqua, 0, 0
+	song mus_gsc_bad_guy, 0, 0
+	song mus_gsc_kanto_trainer, 0, 0
+	song mus_gsc_route6, 0, 0
+	song mus_gsc_vermilion, 0, 0
+	song mus_gsc_hall_of_fame, 0, 0
+	song mus_eusine, 0, 0
+	song mus_theater, 0, 0
+	song mus_gsc_indigo_plateau, 0, 0
+	song mus_gsc_victory_road, 0, 0
+	song mus_gsc_rocket_hideout, 0, 0
+	song mus_burned_tower, 0, 0
+	song mus_ecruteak, 0, 0
+	song mus_vs_gsc_champion, 0, 0
+	song mus_tin_tower, 0, 0
+	song mus_the_end, 0, 0
+	song mus_dragon_den, 0, 0
+	song mus_gsc_rock_tunnel, 0, 0
+	song mus_gsc_kanto_wild, 0, 0
+	song mus_gsc_lavender, 0, 0
+	song mus_gsc_viridian, 0, 0
+	song mus_gsc_kanto_leader, 0, 0
+	song mus_rg_cerulean, 0, 0
+	song mus_rb_celadon, 0, 0
+	song mus_gsc_mtmoon, 0, 0
+	song mus_gsc_clair, 0, 0
+	song mus_gsc_credits, 0, 0
+	song mus_gsc_boyk, 0, 0
+	song mus_c_legend, 0, 0
+	song mus_route39, 0, 0
+	song mus_c_battle_tower, 0, 0
+	song mus_magnet, 0, 0
+	song mus_gsc_towerdesk, 0, 0
+	song mus_rb_game_corner, 0, 0
 
 	.align 2
 dummy_song_header: @ 86B5D00
@@ -642,7 +685,7 @@ gGBSSongTable::
 	song_gbs MUS_VIOLET,				gbs_violetcity_Header,			0, 0	@ Violet City
 	song_gbs MUS_CHERRYGROVE,			gbs_cherrygrovecity_Header,		0, 0	@ Cherrygrove City
 	song_gbs MUS_GYM,					gbs_gym_Header,					0, 0	@ Gym Theme
-	song_gbs MUS_SURF,					gbs_surf_Header,				0, 0	@ Surfing
+	song_gbs MUS_GSC_SURF,				gbs_surf_Header,				0, 0	@ Surfing
 	song_gbs MUS_ILEX_FOREST,			gbs_unioncave_Header,			0, 0	@ Union Cave
 	song_gbs MUS_LEVEL_UP,				gbs_levelup_Header,				2, 2	@ Level Up!
 	song_gbs MUS_HEAL,					gbs_healpokemon_Header,			2, 2	@ Healing
@@ -700,4 +743,51 @@ gGBSSongTable::
 	song_gbs MUS_RG_CAUGHT_INTRO,		gbs_sfx_caughtmon_Header,		2, 2	@ You Caught a Pokémon!
 	song_gbs MUS_ENCOUNTER_FISHERMAN    gbs_lookhiker_Header,           0, 0    @ Encounter music for Fisherman, Hiker, Will, Cal, Karen, Koga, CooltrainerM, Gentleman, Fisherman, SwimmerM, Sailor, Guitarist, Hiker, Biker, Firebreather, Black Belt, Boarder, PokefanM, Red, Officer
 	song_gbs MUS_RG_SEVII_ROUTE         gbs_lakeofrage_Header,          0, 0    @ Route 40
+	song_gbs MUS_GSC_PALLET             gbs_pallettown_Header,          0, 0    @ Pallet Town
+	song_gbs MUS_GSC_ROUTE1             gbs_route1_Header,              0, 0    @ Route 1
+	song_gbs MUS_LIGHTHOUSE             gbs_lighthouse_Header,          0, 0    @ Olivine Lighthouse
+	song_gbs MUS_GSC_ROUTE3             gbs_route3_Header,              0, 0    @ Route 3
+	song_gbs MUS_GSC_VIRIDIAN_FOREST    gbs_route2_Header,              0, 0    @ Viridian Forest
+	song_gbs MUS_ROUTE26                gbs_route26_Header,             0, 0    @ Route 26
+	song_gbs MUS_GSC_ROCKET_TAKEOVER    gbs_lakeofragerocketradio_Header, 0, 0    @ Team Rocket Takevoer
+	song_gbs MUS_KIMONO                 gbs_lookkimonogirl_Header,      0, 0    @ Trainers' Eyes Meet (Kimono Girl)
+	song_gbs MUS_SSAQUA                 gbs_ssaqua_Header,              0, 0    @ S.S. Aqua
+	song_gbs MUS_GSC_BAD_GUY            gbs_lookhiker_Header,           0, 0    @ Trainers' Eyes Meet (Fisherman, Hiker, Will, Cal, Karen, Koga, CooltrainerM, Gentleman, Fisherman, SwimmerM, Sailor, Guitarist, Hiker, Biker, Firebreather, Black Belt, Boarder, PokefanM, Red, Officer)
+	song_gbs MUS_GSC_KANTO_TRAINER      gbs_kantotrainerbattle_Header,  0, 0    @ Battle! (Trainer - Kanto)
+	song_gbs MUS_GSC_ROUTE6             gbs_route12_Header,             0, 0    @ Route 12
+	song_gbs MUS_GSC_VERMILION          gbs_vermilioncity_Header,       0, 0    @ Vermilion City
+	song_gbs MUS_GSC_HALL_OF_FAME       gbs_halloffame_Header,          0, 0    @ Hall of Fame
+	song_gbs MUS_EUSINE                 gbs_lookmysticalman_Header,     0, 0    @ Eusine
+	song_gbs MUS_THEATER                gbs_dancinghall_Header,         0, 0    @ Ecruteak Dance Theater
+	song_gbs MUS_GSC_INDIGO_PLATEAU     gbs_indigoplateau_Header,       0, 0    @ Indigo Plateau
+	song_gbs MUS_GSC_VICTORY_ROAD       gbs_victoryroad_Header,         0, 0    @ Victory Road
+	song_gbs MUS_GSC_ROCKET_HIDEOUT     gbs_rockethideout_Header,       0, 0    @ Team Rocket Hideout
+	song_gbs MUS_BURNED_TOWER           gbs_burnedtower_Header,         0, 0    @ Burned Tower
+	song_gbs MUS_ECRUTEAK               gbs_ecruteakcity_Header,        0, 0    @ Ecruteak City
+	song_gbs MUS_VS_GSC_CHAMPION        gbs_championbattle_Header,      0, 0    @ Battle! (Champion)
+	song_gbs MUS_TIN_TOWER              gbs_tintower_Header,            0, 0    @ Tin Tower
+	song_gbs MUS_THE_END                gbs_postcredits_Header,         0, 0    @ The End
+	song_gbs MUS_DRAGON_DEN             gbs_dragonsden_Header,          0, 0    @ Dragon's Den
+	song_gbs MUS_GSC_ROCK_TUNNEL        gbs_mtmoon_Header,              0, 0    @ Rock Tunnel
+	song_gbs MUS_GSC_KANTO_WILD         gbs_kantowildbattle_Header,     0, 0    @ Battle! (Wild Pokémon - Kanto)
+	song_gbs MUS_GSC_LAVENDER           gbs_lavendertown_Header,        0, 0    @ Lavender Town
+	song_gbs MUS_GSC_VIRIDIAN           gbs_viridiancity_Header,        0, 0    @ Viridian City
+	song_gbs MUS_GSC_KANTO_LEADER       gbs_kantogymbattle_Header,      0, 0    @ Battle! (Gym Leader - Kanto)
+	song_gbs MUS_RG_FUCHSIA             gbs_viridiancity_Header,        0, 0    @ Pewter City
+	song_gbs MUS_RG_CELADON             gbs_celadoncity_Header,         0, 0    @ Celadon City
+	song_gbs MUS_GSC_MTMOON             gbs_mtmoonsquare_Header,        0, 0    @ Mt. Moon Square
+	song_gbs MUS_GSC_CLAIR              gbs_clair_Header,               0, 0    @ Clair
+	song_gbs MUS_GSC_CREDITS            gbs_credits_Header,             0, 0    @ Credits
+	song_gbs MUS_GSC_BOYK               gbs_lookofficer_Header,         0, 0    @ Trainers' Eyes Meet (Male 2)
+	song_gbs MUS_C_LEGEND               gbs_suicunebattle_Header,       0, 0    @ Battle! (Legendary Beast)
+	song_gbs MUS_ROUTE39                gbs_route37_Header,             0, 0    @ Route 38
+	song_gbs MUS_C_BATTLE_TOWER         gbs_battletowertheme_Header,    0, 0    @ Battle Tower
+	song_gbs MUS_MAGNET                 gbs_magnettrain_Header,         0, 0    @ Magnet Train
+	song_gbs MUS_GSC_TOWERDESK          gbs_battletowerlobby_Header,    0, 0    @ Battle Tower Reception Desk
+	song_gbs MUS_RB_GAME_CORNER,	    gbs_gamecorner_Header,			0, 0	@ Game Corner 
+	song_gbs MUS_RG_ROUTE24             gbs_route3_Header,              0, 0    @ Route 3
+	song_gbs MUS_RG_POKE_CENTER,		gbs_pokemoncenter_Header,		0, 0	@ Pokémon Center
+	song_gbs MUS_RG_GYM,			    gbs_gym_Header,					0, 0	@ Gym Theme
+	song_gbs MUS_RG_CINNABAR            gbs_viridiancity_Header,        0, 0    @ Saffron City
+	song_gbs MUS_RG_GAME_CORNER,	    gbs_gamecorner_Header,			0, 0	@ Game Corner 
 	.4byte 0xFFFFFFFF

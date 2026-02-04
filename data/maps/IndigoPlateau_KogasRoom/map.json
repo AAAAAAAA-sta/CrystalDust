@@ -2,7 +2,7 @@
   "id": "MAP_INDIGO_PLATEAU_KOGAS_ROOM",
   "name": "IndigoPlateau_KogasRoom",
   "layout": "LAYOUT_INDIGO_PLATEAU_KOGAS_ROOM",
-  "music": "MUS_RG_VICTORY_ROAD",
+  "music": "MUS_GSC_INDIGO_PLATEAU",
   "region_map_section": "MAPSEC_INDIGO_PLATEAU",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
