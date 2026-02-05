@@ -16,13 +16,13 @@ This project is based on [**pokeemerald**](https://github.com/pret/pokeemerald),
 [Discord](https://discord.gg/gC6mEQB)
 
 [JuanAEsparza:](https://www.youtube.com/@juanaesparza7182/featured)
-Viridian/Pewter/Saffron City
-Lavender Town
-Battle Tower
-Rock Tunnel/Mt. Moon/Underground Path
-The End (Post credits track)
-Dragon's Den
-Tin Tower
+Viridian/Pewter/Saffron City,
+Lavender Town,
+Battle Tower,
+Rock Tunnel/Mt. Moon/Underground Path,
+The End (Post credits track),
+Dragon's Den,
+Tin Tower,
 Battle! (Wild Pokemon - Kanto)
 
 [EesrekYT:](https://www.youtube.com/@SKaYy94LmAo)
@@ -32,7 +32,7 @@ A Discord user on the server:
 Battle! (Gym Leader - Kanto)
 
 Liquid Crystal:
-Battle! (Trainer - Kanto)
+Battle! (Trainer - Kanto),
 Route 12
 
 The rest of the tracks were ripped from CrystalDust beta 2 and Crystal.
