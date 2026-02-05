@@ -59,6 +59,7 @@ script CianwoodCity_Eventscript_SuicuneTrigger {
         textcolor(0)
         msgbox("EUSINE: Yo, {PLAYER}.\nWasn't that SUICUNE just now?\pI only caught a quick glimpse, but\nI thought I saw SUICUNE running on\lthe waves.\pSUICUNE is beautiful and grand.\nAnd it races through towns and\lroads at simply awesome speeds.\pIt's wonderful…\nI want to see SUICUNE up close…\pI've decided.\pI'll battle you as a trainer to earn\nSUICUNE's respect!\pCome on, {PLAYER}.\nLet's battle now!", MSGBOX_DEFAULT)
         release
+        savebgm(MUS_EUSINE)
         trainerbattle_no_intro(TRAINER_EUSINE, "I hate to admit it, but you win.")
         textcolor(0)
         msgbox("You're amazing, {PLAYER}! No wonder\n{POKEMON} gravitate to you.\pI get it now.\pI'm going to keep searching for\nSUICUNE.\pI'm sure we'll see each other again.\nSee you around!", MSGBOX_DEFAULT)

@@ -74,6 +74,7 @@ mapscripts DragonsDen_Shrine_MapScripts {
             fadeinbgm(0)
             textcolor(1)
             setflag(FLAG_BADGE08_GET)
+            playbgm(MUS_DRAGON_DEN, 0)
             msgbox("The RISINGBADGE will enable your\n{POKEMON} to use the move for\lclimbing waterfalls.\pAlso, all {POKEMON} will recognize you\nas a trainer and obey your every\lcommand without question.", MSGBOX_DEFAULT)
             closemessage
             applymovement(1, DragonsDen_Shrine_Movement_ClairReturnsToPlayer)
