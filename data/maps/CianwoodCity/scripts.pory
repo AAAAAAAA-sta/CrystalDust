@@ -12,7 +12,7 @@ mapscripts CianwoodCity_MapScripts {
     MAP_SCRIPT_ON_RESUME {
         if(!flag(FLAG_TEMP_2)) //if returning from Eusine battle
         {
-            //playbgm(MUS_EUSINE, 0) //need this music
+            playbgm(MUS_EUSINE, 0) //need this music
         }
     }
 }
@@ -52,7 +52,7 @@ script CianwoodCity_Eventscript_SuicuneTrigger {
     setvar(VAR_TEMP_0, 1)
     if(!defeated(TRAINER_EUSINE))
     {
-        //playbgm(MUS_EUSINE, 0) //need this music
+        playbgm(MUS_EUSINE, 0) //need this music
         addobject(12)
         applymovement(12, CianwoodCity_Movement_EusineToPlayer)
         waitmovement(0)

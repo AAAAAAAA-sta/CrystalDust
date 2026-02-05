@@ -50,7 +50,7 @@ mapscripts DragonsDen_MapScripts {
             applymovement(OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark)
             playse(SE_PIN)
             delay(0x40)
-            //playbgm(MUS_GSC_CLAIR, 0) //MUSIC_CLAIR in pokecrystal
+            playbgm(MUS_GSC_CLAIR, 0) //MUSIC_CLAIR in pokecrystal
             applymovement(9, DragonsDen_Movement_ClairToPlayer)
             turnobject(OBJ_EVENT_ID_PLAYER, DIR_WEST)
             waitmovement(0)

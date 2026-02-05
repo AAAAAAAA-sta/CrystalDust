@@ -148,7 +148,7 @@ mapscripts TinTower_1F_MapScripts {
             clearflag(FLAG_HIDE_MAP_NAME_POPUP)
             delay(20)
             turnobject(OBJ_EVENT_ID_PLAYER, DIR_SOUTH)
-            //playbgm(MUS_EUSINE, 0) // Mysticalman encounter
+            playbgm(MUS_EUSINE, 0) // Mysticalman encounter
             playse(SE_EXIT)
             addobject(7)
             applymovement(7, TinTower_1F_Movement_EusineToPlayer)
