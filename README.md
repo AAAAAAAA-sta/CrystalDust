@@ -28,6 +28,9 @@ Battle! (Wild Pokemon - Kanto)
 [EesrekYT:](https://www.youtube.com/@SKaYy94LmAo)
 Viridian Forest
 
+[zg4north:](https://github.com/Sierraffinity/CrystalDust/pull/44)
+Battle! (Champion GSC)
+
 A Discord user on the server:
 Battle! (Gym Leader - Kanto)
 
