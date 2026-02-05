@@ -15,7 +15,7 @@ This project is based on [**pokeemerald**](https://github.com/pret/pokeemerald),
 
 [Discord](https://discord.gg/gC6mEQB)
 
-[JuanAEsparza](https://www.youtube.com/@juanaesparza7182/featured)
+[JuanAEsparza:](https://www.youtube.com/@juanaesparza7182/featured)
 Viridian/Pewter/Saffron City
 Lavender Town
 Battle Tower
@@ -25,13 +25,13 @@ Dragon's Den
 Tin Tower
 Battle! (Wild Pokemon - Kanto)
 
-[EesrekYT](https://www.youtube.com/@SKaYy94LmAo)
+[EesrekYT:](https://www.youtube.com/@SKaYy94LmAo)
 Viridian Forest
 
-A Discord user on the server
+A Discord user on the server:
 Battle! (Gym Leader - Kanto)
 
-Liquid Crystal
+Liquid Crystal:
 Battle! (Trainer - Kanto)
 Route 12
 
