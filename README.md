@@ -1,6 +1,6 @@
 # Pokémon CrystalDust
 
-This is a ROM hack of Pokémon Emerald that aims to recreate Pokémon Crystal on the GBA, as if Game Freak had remade it themselves at that time. This is an unofficial fork that adds missing tracks to CrystalDust.
+This is a ROM hack of Pokémon Emerald that aims to recreate Pokémon Crystal on the GBA, as if Game Freak had remade it themselves at that time. This is an unofficial fork that adds missing tracks to CrystalDust for now.
 
 [**View the FAQ**](https://github.com/Deokishisu/CrystalDust/blob/progress/FAQ.md)
 

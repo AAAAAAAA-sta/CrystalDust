@@ -1336,7 +1336,7 @@ $(MID_SUBDIR)/mus_eusine.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V079
 
 $(MID_SUBDIR)/mus_theater.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G165 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V090
 
 $(MID_SUBDIR)/mus_gsc_indigo_plateau.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G154 -V090
