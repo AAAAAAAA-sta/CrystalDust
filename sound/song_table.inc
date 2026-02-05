@@ -790,4 +790,5 @@ gGBSSongTable::
 	song_gbs MUS_RG_GYM,			    gbs_gym_Header,					0, 0	@ Gym Theme
 	song_gbs MUS_RG_CINNABAR            gbs_viridiancity_Header,        0, 0    @ Saffron City
 	song_gbs MUS_RG_GAME_CORNER,	    gbs_gamecorner_Header,			0, 0	@ Game Corner 
+	song_gbs MUS_RG_SEVII_45,		    gbs_azaleatown_Hgit eader,	    0, 0	@ Blackthorn City
 	.4byte 0xFFFFFFFF
