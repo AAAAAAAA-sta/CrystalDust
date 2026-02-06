@@ -31,6 +31,9 @@ Viridian Forest
 [zg4north:](https://github.com/Sierraffinity/CrystalDust/pull/44)
 Battle! (Champion GSC)
 
+[PascalvandenBos:](https://www.youtube.com/channel/UCx8RbZLXx8lcr-yBHPEr_vA)
+Olivine Lighthouse
+
 A Discord user on the server:
 Battle! (Gym Leader - Kanto)
 

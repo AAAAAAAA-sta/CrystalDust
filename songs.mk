@@ -1366,7 +1366,7 @@ $(MID_SUBDIR)/mus_rb_celadon.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G168 -V070
 
 $(MID_SUBDIR)/mus_gsc_mtmoon.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G135 -V070
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V050
 
 $(MID_SUBDIR)/mus_gsc_clair.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V070
