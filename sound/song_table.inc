@@ -791,4 +791,5 @@ gGBSSongTable::
 	song_gbs MUS_RG_CINNABAR            gbs_viridiancity_Header,        0, 0    @ Saffron City
 	song_gbs MUS_RG_GAME_CORNER,	    gbs_gamecorner_Header,			0, 0	@ Game Corner 
 	song_gbs MUS_RG_SEVII_45,		    gbs_azaleatown_Header,	        0, 0	@ Blackthorn City
+	song_gbs MUS_VICTORY_LEAGUE,	    gbs_gymleadervictory_Header,	0, 0	@ Victory! (League)
 	.4byte 0xFFFFFFFF
