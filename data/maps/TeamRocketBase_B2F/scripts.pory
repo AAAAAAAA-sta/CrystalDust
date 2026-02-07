@@ -408,7 +408,7 @@ script TeamRocketBase_B2F_EventScript_PrepareMultiBattle{
     frontier_set(FRONTIER_DATA_SELECTED_MON_ORDER)
     setvar(VAR_0x8004, SPECIAL_BATTLE_LANCE)
     setvar(VAR_0x8005, 0)
-    savebgm(MUS_AQUA_MAGMA_HIDEOUT) // TODO: Replace with proper song when music is inserted
+    savebgm(MUS_GSC_ROCKET_HIDEOUT) // TODO: Replace with proper song when music is inserted
     special(DoSpecialTrainerBattle)
     waitstate
     frontier_saveparty
