@@ -107,7 +107,7 @@ script IndigoPlateau_PokemonCenter_1F_Eventscript_RivalRematchTriggers{
             waitmovement(0)
     }
     removeobject(6)
-    savebgm(MUS_RG_VICTORY_ROAD)
+    savebgm(MUS_GSC_INDIGO_PLATEAU)
     fadedefaultbgm
     setvar(VAR_TEMP_1,1)
     releaseall

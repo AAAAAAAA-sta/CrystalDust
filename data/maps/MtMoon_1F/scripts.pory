@@ -102,7 +102,7 @@ mapscripts MtMoon_1F_MapScripts {
             removeobject(1)
             setvar(VAR_TEMP_0, 1)
             fadedefaultbgm
-            savebgm(MUS_RG_MT_MOON)
+            savebgm(MUS_GSC_ROCK_TUNNEL)
             releaseall
             end
         }
