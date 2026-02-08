@@ -39,6 +39,7 @@ Battle! (Gym Leader - Kanto)
 
 Liquid Crystal:
 Battle! (Trainer - Kanto),
-Route 12
+Route 12,
+S. S. Aqua
 
 The rest of the tracks were ripped from CrystalDust beta 2 and Crystal.
