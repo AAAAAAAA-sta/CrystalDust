@@ -1193,7 +1193,7 @@ u16 GetCurrLocationDefaultMusic(void)
 {
     if(gMapHeader.regionMapSectionId == MAPSEC_RADIO_TOWER && FlagGet(FLAG_ROCKETS_IN_RADIO_TOWER))
     {
-        return MUS_GSC_ROCKET_TAKEOVER;
+        return MUS_ROCKET_TAKEOVER;
     }
     return GetLocationMusic(&gSaveBlock1Ptr->location);
 }
@@ -1202,7 +1202,7 @@ u16 GetWarpDestinationMusic(void)
 {
     if(gMapHeader.regionMapSectionId == MAPSEC_RADIO_TOWER && FlagGet(FLAG_ROCKETS_IN_RADIO_TOWER))
     {
-        return MUS_GSC_ROCKET_TAKEOVER;
+        return MUS_ROCKET_TAKEOVER;
     }
     return GetLocationMusic(&sWarpDestination);
 }
