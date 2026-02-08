@@ -399,7 +399,7 @@ static bool8 Task_ProcessSoundCheckMenuInput(u8 taskId) // sub_080E8688
             if (gTasks[taskId].tBgmIndex > 0)
                 gTasks[taskId].tBgmIndex--;
             else
-                gTasks[taskId].tBgmIndex = (PH_NURSE_SOLO - (MUS_LITTLEROOT_TEST - 1));
+                gTasks[taskId].tBgmIndex = (MUS_RB_GAME_CORNER - (MUS_LITTLEROOT_TEST - 1));
         }
         return TRUE;
     }
@@ -414,7 +414,7 @@ static bool8 Task_ProcessSoundCheckMenuInput(u8 taskId) // sub_080E8688
         }
         else
         {
-            if (gTasks[taskId].tBgmIndex < (PH_NURSE_SOLO - (MUS_LITTLEROOT_TEST - 1)))
+            if (gTasks[taskId].tBgmIndex < (MUS_RB_GAME_CORNER - (MUS_LITTLEROOT_TEST - 1)))
                 gTasks[taskId].tBgmIndex++;
             else
                 gTasks[taskId].tBgmIndex = 0;
@@ -1287,7 +1287,50 @@ static void DestroyWindow(u32 windowId) // sub_080E9750
     X(PH_CURE_SOLO, "PH-CURE-SOLO") \
     X(PH_NURSE_BLEND, "PH-NURSE-BLEND") \
     X(PH_NURSE_HELD, "PH-NURSE-HELD") \
-    X(PH_NURSE_SOLO, "PH-NURSE-SOLO")
+    X(PH_NURSE_SOLO, "PH-NURSE-SOLO") \
+    X(MUS_GSC_SURF, "MUS-GSC-SURF") \
+    X(MUS_GSC_PALLET, "MUS-GSC-PALLET") \
+    X(MUS_GSC_ROUTE1, "MUS-GSC-ROUTE1") \
+    X(MUS_LIGHTHOUSE, "MUS-LIGHTHOUSE") \
+    X(MUS_GSC_ROUTE3, "MUS-GSC-ROUTE3") \
+    X(MUS_GSC_VIRIDIAN_FOREST, "MUS-GSC-VIRIDIAN-FOREST") \
+    X(MUS_ROUTE26, "MUS-ROUTE26") \
+    X(MUS_GSC_ROCKET_TAKEOVER, "MUS-GSC-ROCKET-TAKEOVER") \
+    X(MUS_KIMONO, "MUS-KIMONO") \
+    X(MUS_SSAQUA, "MUS-SSAQUA") \
+    X(MUS_GSC_BAD_GUY, "MUS-GSC-BAD-GUY") \
+    X(MUS_GSC_KANTO_TRAINER, "MUS-GSC-KANTO-TRAINER") \
+    X(MUS_GSC_ROUTE6, "MUS-GSC-ROUTE6") \
+    X(MUS_GSC_VERMILION, "MUS-GSC-VERMILION") \
+    X(MUS_GSC_HALL_OF_FAME, "MUS-GSC-HALL-OF-FAME") \
+    X(MUS_EUSINE, "MUS-EUSINE") \
+    X(MUS_THEATER, "MUS-THEATER") \
+    X(MUS_GSC_INDIGO_PLATEAU, "MUS-GSC-INDIGO-PLATEAU") \
+    X(MUS_GSC_VICTORY_ROAD, "MUS-GSC-VICTORY-ROAD") \
+    X(MUS_GSC_ROCKET_HIDEOUT, "MUS-GSC-ROCKET-HIDEOUT") \
+    X(MUS_BURNED_TOWER, "MUS-BURNED-TOWER") \
+    X(MUS_ECRUTEAK, "MUS-ECRUTEAK") \
+    X(MUS_VS_GSC_CHAMPION, "MUS-VS-GSC-CHAMPION") \
+    X(MUS_TIN_TOWER, "MUS-TIN-TOWER") \
+    X(MUS_THE_END, "MUS-THE-END") \
+    X(MUS_DRAGON_DEN, "MUS-DRAGON-DEN") \
+    X(MUS_GSC_ROCK_TUNNEL, "MUS-GSC-ROCK-TUNNEL") \
+    X(MUS_GSC_KANTO_WILD, "MUS-GSC-KANTO-WILD") \
+    X(MUS_GSC_LAVENDER, "MUS-GSC-LAVENDER") \
+    X(MUS_GSC_VIRIDIAN, "MUS-GSC-VIRIDIAN") \
+    X(MUS_GSC_KANTO_LEADER, "MUS-GSC-KANTO-LEADER") \
+    X(MUS_RG_CERULEAN, "MUS-RG-CERULEAN") \
+    X(MUS_RB_CELADON, "MUS-RB-CELADON") \
+    X(MUS_GSC_MTMOON, "MUS-GSC-MTMOON") \
+    X(MUS_GSC_CLAIR, "MUS-GSC-CLAIR") \
+    X(MUS_GSC_CREDITS, "MUS-GSC-CREDITS") \
+    X(MUS_GSC_BOYK, "MUS-GSC-BOYK") \
+    X(MUS_C_LEGEND, "MUS-C-LEGEND") \
+    X(MUS_ROUTE39, "MUS-ROUTE39") \
+    X(MUS_C_BATTLE_TOWER, "MUS-C-BATTLE-TOWER") \
+    X(MUS_MAGNET, "MUS-MAGNET") \
+    X(MUS_GSC_TOWERDESK, "MUS-GSC-TOWERDESK") \
+    X(MUS_RB_GAME_CORNER, "MUS-RB-GAME-CORNER")
 
 #define SOUND_LIST_SE \
     X(SE_STOP, "STOP") \
