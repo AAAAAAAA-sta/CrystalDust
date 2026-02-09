@@ -18,7 +18,7 @@ mapscripts Route43_Gatehouse2_MapScripts {
         VAR_TEMP_0, 0 {
             lockall
             textcolor(0)
-            playbgm(MUS_GSC_ROCKET_TAKEOVER, 0)
+            playbgm(MUS_ROCKET_TAKEOVER, 0)
             getplayerxy(VAR_0x8008, VAR_RESULT)
             if(var(VAR_RESULT) <= 2)
             {   // at the top
