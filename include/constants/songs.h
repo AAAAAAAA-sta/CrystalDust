@@ -595,6 +595,7 @@
 #define MUS_MAGNET                  650
 #define MUS_GSC_TOWERDESK           651
 #define MUS_RB_GAME_CORNER          652
+#define MUS_RG_FUCHSIACELADON       653
 
 #define MUS_NONE                    0xFFFF
 

@@ -656,6 +656,7 @@ gSongTable:: @ 86B49F0
 	song mus_magnet, 0, 0
 	song mus_gsc_towerdesk, 0, 0
 	song mus_rb_game_corner, 0, 0
+	song mus_rg_fuchsiaceladon, 0, 0
 
 	.align 2
 dummy_song_header: @ 86B5D00
@@ -792,4 +793,5 @@ gGBSSongTable::
 	song_gbs MUS_RG_GAME_CORNER,	    gbs_gamecorner_Header,			0, 0	@ Game Corner 
 	song_gbs MUS_RG_SEVII_45,		    gbs_azaleatown_Header,	        0, 0	@ Blackthorn City
 	song_gbs MUS_VICTORY_LEAGUE,	    gbs_gymleadervictory_Header,	0, 0	@ Victory! (League)
+	song_gbs MUS_RG_FUCHSIACELADON      gbs_celadoncity_Header,         0, 0    @ Fuchsia City
 	.4byte 0xFFFFFFFF

@@ -1391,3 +1391,6 @@ $(MID_SUBDIR)/mus_gsc_towerdesk.s: %.s: %.mid
 
 $(MID_SUBDIR)/mus_rb_game_corner.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G132 -V090
+
+$(MID_SUBDIR)/mus_rg_fuchsiaceladon.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G167 -V090
