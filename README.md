@@ -34,6 +34,9 @@ Battle! (Champion GSC)
 [PascalvandenBos:](https://www.youtube.com/channel/UCx8RbZLXx8lcr-yBHPEr_vA)
 Olivine Lighthouse
 
+ShinyDragonHunter:
+Route 3
+
 A Discord user on the server:
 Battle! (Gym Leader - Kanto)
 
