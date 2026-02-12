@@ -23,7 +23,9 @@ Rock Tunnel/Mt. Moon/Underground Path,
 The End (Post credits track),
 Dragon's Den,
 Tin Tower,
-Battle! (Wild Pokemon - Kanto)
+Battle! (Wild Pokemon - Kanto),
+Celadon City,
+Route 11 (Unused)
 
 [EesrekYT:](https://www.youtube.com/@SKaYy94LmAo)
 Viridian Forest

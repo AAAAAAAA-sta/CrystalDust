@@ -596,6 +596,8 @@
 #define MUS_GSC_TOWERDESK           651
 #define MUS_RB_GAME_CORNER          652
 #define MUS_RG_FUCHSIACELADON       653
+#define MUS_GSC_CELADON             654
+#define MUS_GSC_ROUTE11             655
 
 #define MUS_NONE                    0xFFFF
 

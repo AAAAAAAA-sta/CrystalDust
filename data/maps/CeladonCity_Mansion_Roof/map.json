@@ -2,7 +2,7 @@
   "id": "MAP_CELADON_CITY_MANSION_ROOF",
   "name": "CeladonCity_Mansion_Roof",
   "layout": "LAYOUT_CELADON_CITY_MANSION_ROOF",
-  "music": "MUS_RG_CELADON",
+  "music": "MUS_GSC_CELADON",
   "region_map_section": "MAPSEC_CELADON_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
