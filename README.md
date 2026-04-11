@@ -8,7 +8,6 @@ To set up the repository, see [INSTALL.md](INSTALL.md).
 
 This project is based on [**pokeemerald**](https://github.com/pret/pokeemerald), a decompilation of Pokémon Emerald.
 
-WARNING: Checking an egg's summary screen will crash the game
 
 ## Links
 
