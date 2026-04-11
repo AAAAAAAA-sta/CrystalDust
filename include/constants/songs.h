@@ -598,6 +598,7 @@
 #define MUS_RG_FUCHSIACELADON       653
 #define MUS_GSC_CELADON             654
 #define MUS_GSC_ROUTE11             655
+#define MUS_GSC_ROUTE42             656
 
 #define MUS_NONE                    0xFFFF
 

@@ -1394,3 +1394,6 @@ $(MID_SUBDIR)/mus_rb_game_corner.s: %.s: %.mid
 
 $(MID_SUBDIR)/mus_rg_fuchsiaceladon.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G167 -V090
+
+$(MID_SUBDIR)/mus_gsc_route42.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G187 -V080

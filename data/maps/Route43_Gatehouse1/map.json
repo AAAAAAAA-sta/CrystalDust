@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE43_GATEHOUSE1",
   "name": "Route43_Gatehouse1",
   "layout": "LAYOUT_GATEHOUSE_VERTICAL",
-  "music": "MUS_RG_SEVII_ROUTE",
+  "music": "MUS_GSC_ROUTE42",
   "region_map_section": "MAPSEC_ROUTE_43",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

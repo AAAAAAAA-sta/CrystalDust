@@ -733,7 +733,7 @@ void ConvertInternationalString(u8 *s, u8 language)
 {
     if (language == LANGUAGE_JAPANESE)
     {
-        u32 i;
+        s32 i;
 
         StripExtCtrlCodes(s);
         i = StringLength(s);
@@ -743,7 +743,7 @@ void ConvertInternationalString(u8 *s, u8 language)
 
         i--;
 
-        while (i != (u8)-1)
+        while (i >= 0)
         {
             s[i + 2] = s[i];
             i--;
