@@ -79,6 +79,7 @@ script GoldenrodCity_Underground_SwitchRoom_EventScript_RivalTriggers {
     removeobject(1)
     playse(SE_EXIT)
     fadedefaultbgm
+    savebgm(MUS_ILEX_FOREST)
     setvar(VAR_TEMP_0, 1)
     release
     end

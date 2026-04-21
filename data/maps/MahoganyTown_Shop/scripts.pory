@@ -30,6 +30,7 @@ mapscripts MahoganyTown_Shop_MapScripts {
     }
     MAP_SCRIPT_ON_FRAME_TABLE [
         VAR_TEMP_0, 0{
+            playbgm(MUS_GSC_ROCKET_HIDEOUT, 0)
             lockall
             delay(15)
             textcolor(0)
