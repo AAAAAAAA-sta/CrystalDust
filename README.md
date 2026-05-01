@@ -42,6 +42,9 @@ Route 3
 A Discord user on the server:
 Battle! (Gym Leader - Kanto)
 
+[IronInvoker47:](https://www.youtube.com/watch?v=QEQxIt_uL5I)
+Pokemon Radio Transmission
+
 Liquid Crystal:
 Battle! (Trainer - Kanto),
 Route 12,

@@ -599,12 +599,12 @@
 #define MUS_GSC_CELADON             654
 #define MUS_GSC_ROUTE11             655
 #define MUS_GSC_ROUTE42             656
+#define MUS_POKE_FLUTE_RADIO        657
+#define MUS_EVOLUTION_RADIO         658
 
 #define MUS_NONE                    0xFFFF
 
 // temporary define for uninserted radio songs
-#define MUS_EVOLUTION_RADIO         MUS_WEATHER_GROUDON
-#define MUS_POKE_FLUTE_RADIO        MUS_RG_POKE_FLUTE
 #define MUS_PEWTER                  MUS_GSC_PEWTER
 
 #endif  // GUARD_CONSTANTS_SONGS_H

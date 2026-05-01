@@ -1397,3 +1397,9 @@ $(MID_SUBDIR)/mus_rg_fuchsiaceladon.s: %.s: %.mid
 
 $(MID_SUBDIR)/mus_gsc_route42.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G187 -V080
+
+$(MID_SUBDIR)/mus_poke_flute_radio.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V048
+
+$(MID_SUBDIR)/mus_evolution_radio.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G089 -V080

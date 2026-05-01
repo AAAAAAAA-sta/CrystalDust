@@ -399,7 +399,7 @@ static bool8 Task_ProcessSoundCheckMenuInput(u8 taskId) // sub_080E8688
             if (gTasks[taskId].tBgmIndex > 0)
                 gTasks[taskId].tBgmIndex--;
             else
-                gTasks[taskId].tBgmIndex = (MUS_GSC_ROUTE42 - (MUS_LITTLEROOT_TEST - 1));
+                gTasks[taskId].tBgmIndex = (MUS_EVOLUTION_RADIO - (MUS_LITTLEROOT_TEST - 1));
         }
         return TRUE;
     }
@@ -414,7 +414,7 @@ static bool8 Task_ProcessSoundCheckMenuInput(u8 taskId) // sub_080E8688
         }
         else
         {
-            if (gTasks[taskId].tBgmIndex < (MUS_GSC_ROUTE42 - (MUS_LITTLEROOT_TEST - 1)))
+            if (gTasks[taskId].tBgmIndex < (MUS_EVOLUTION_RADIO - (MUS_LITTLEROOT_TEST - 1)))
                 gTasks[taskId].tBgmIndex++;
             else
                 gTasks[taskId].tBgmIndex = 0;
@@ -1334,7 +1334,9 @@ static void DestroyWindow(u32 windowId) // sub_080E9750
     X(MUS_RG_FUCHSIACELADON, "MUS-RG-FUCHSIACELADON") \
     X(MUS_GSC_CELADON, "MUS-GSC-CELADON") \
     X(MUS_GSC_ROUTE11, "MUS-GSC-ROUTE11") \
-    X(MUS_GSC_ROUTE42, "MUS-GSC-ROUTE42") 
+    X(MUS_GSC_ROUTE42, "MUS-GSC-ROUTE42") \
+    X(MUS_POKE_FLUTE_RADIO, "MUS-POKE-FLUTE-RADIO") \
+    X(MUS_EVOLUTION_RADIO, "MUS-EVOLUTION-RADIO")
 
 #define SOUND_LIST_SE \
     X(SE_STOP, "STOP") \
