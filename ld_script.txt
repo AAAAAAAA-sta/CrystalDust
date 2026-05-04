@@ -1261,6 +1261,7 @@ SECTIONS {
         sound/songs/mus_gsc_route42.o(.rodata);
         sound/songs/mus_poke_flute_radio.o(.rodata);
         sound/songs/mus_evolution_radio.o(.rodata);
+        sound/songs/midi/mus_gsc_evolved.o(.rodata);
         sound/songs/midi/ph_trap_blend.o(.rodata);
         sound/songs/midi/ph_trap_held.o(.rodata);
         sound/songs/midi/ph_trap_solo.o(.rodata);

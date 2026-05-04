@@ -67,7 +67,7 @@ script VictoryRoad_EventScript_RivalTriggers {
     }
     removeobject(6)
     setflag(FLAG_TEMP_1)
-    savebgm(MUS_GSC_INDIGO_PLATEAU)
+    savebgm(MUS_GSC_VICTORY_ROAD)
     fadedefaultbgm
     setvar(VAR_TEMP_0, 1)
     releaseall

@@ -15,7 +15,7 @@ PokedexRating_EventScript_NormalFanfare:: @ 81A73D8
 	return
 
 PokedexRating_EventScript_DexCompleteFanfare:: @ 81A73DC
-	playfanfare MUS_EVOLVED
+	playfanfare MUS_GSC_EVOLVED
 	return
 
 PokedexRating_EventScript_RatePokedex:: @ 8272184

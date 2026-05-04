@@ -601,6 +601,7 @@
 #define MUS_GSC_ROUTE42             656
 #define MUS_POKE_FLUTE_RADIO        657
 #define MUS_EVOLUTION_RADIO         658
+#define MUS_GSC_EVOLVED             659 // MUS_FANFA5
 
 #define MUS_NONE                    0xFFFF
 

@@ -50,4 +50,10 @@ Battle! (Trainer - Kanto),
 Route 12,
 S. S. Aqua
 
+Sprites:
+[Youngster and bug catcher](https://github.com/digita-LUNA/CrystalDust),
+[Janine](https://github.com/PokemonHnS-Development/pokemonHnS),
+Rest of the sprites from DMA server
+
+
 The rest of the tracks were ripped from CrystalDust beta 2, Crystal and Pokemon Golden Sun.

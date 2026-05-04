@@ -1403,3 +1403,6 @@ $(MID_SUBDIR)/mus_poke_flute_radio.s: %.s: %.mid
 
 $(MID_SUBDIR)/mus_evolution_radio.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G089 -V080
+
+$(MID_SUBDIR)/mus_gsc_evolved.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G012 -V090 -P5

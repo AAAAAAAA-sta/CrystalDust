@@ -662,6 +662,7 @@ gSongTable:: @ 86B49F0
 	song mus_gsc_route42, 0, 0
 	song mus_poke_flute_radio, 0, 0
 	song mus_evolution_radio, 0, 0
+	song mus_gsc_evolved, 2, 2
 
 	.align 2
 dummy_song_header: @ 86B5D00
@@ -804,4 +805,5 @@ gGBSSongTable::
 	song_gbs MUS_GSC_ROUTE42            gbs_lakeofrage_Header,          0, 0    @ Route 42
 	song_gbs MUS_POKE_FLUTE_RADIO       gbs_pokeflutechannel_Header,    0, 0    @ Poké Flute Channel
 	song_gbs MUS_EVOLUTION_RADIO        gbs_lakeofragerocketradio_Header, 0, 0    @ Radio Transmission
+	song_gbs MUS_GSC_EVOLVED,			gbs_caughtmon_Header,			2, 2	@ Your Pokémon Evolved!
 	.4byte 0xFFFFFFFF

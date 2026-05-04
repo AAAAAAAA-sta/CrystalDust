@@ -960,7 +960,7 @@ static void SpriteCB_BallThrow_CaptureMon(struct Sprite *sprite)
     {
         gDoingBattleAnim = FALSE;
         m4aMPlayAllStop();
-        PlaySE(MUS_EVOLVED);
+        PlaySE(MUS_GSC_EVOLVED);
     }
     else if (sprite->data[4] == 315)
     {

@@ -158,7 +158,7 @@ script Route36_NationalParkGatehouse_EventScript_AwardsCeremony {
         waitmessage
     }
 
-    playfanfare(MUS_EVOLVED)
+    playfanfare(MUS_GSC_EVOLVED)
     waitfanfare
     waitbuttonpress
     setvar(VAR_0x8004, 1)

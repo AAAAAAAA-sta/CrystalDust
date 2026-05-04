@@ -762,7 +762,7 @@ static void Task_EvolutionScene(u8 taskId)
         {
             StringExpandPlaceholders(gStringVar4, gText_CongratsPkmnEvolved);
             BattlePutTextOnWindow(gStringVar4, 0);
-            PlayBGM(MUS_EVOLVED);
+            PlayBGM(MUS_GSC_EVOLVED);
             gTasks[taskId].tState++;
             SetMonData(mon, MON_DATA_SPECIES, (void*)(&gTasks[taskId].tPostEvoSpecies));
             CalculateMonStats(mon);
@@ -1183,7 +1183,7 @@ static void Task_TradeEvolutionScene(u8 taskId)
         {
             StringExpandPlaceholders(gStringVar4, gText_CongratsPkmnEvolved);
             DrawTextOnTradeWindow(0, gStringVar4, 1);
-            PlayFanfare(MUS_EVOLVED);
+            PlayFanfare(MUS_GSC_EVOLVED);
             gTasks[taskId].tState++;
             SetMonData(mon, MON_DATA_SPECIES, (&gTasks[taskId].tPostEvoSpecies));
             CalculateMonStats(mon);

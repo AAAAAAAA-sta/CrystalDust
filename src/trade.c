@@ -3815,7 +3815,7 @@ static bool8 AnimateTradeSequenceCable(void)
         break;
     case TS_STATE_TAKE_CARE_OF_MON:
         if (++sTradeData->timer == 10)
-            PlayFanfare(MUS_EVOLVED);
+            PlayFanfare(MUS_GSC_EVOLVED);
 
         if (sTradeData->timer == 250)
         {
@@ -4315,7 +4315,7 @@ static bool8 AnimateTradeSequenceWireless(void)
         break;
     case TS_STATE_TAKE_CARE_OF_MON:
         if (++sTradeData->timer == 10)
-            PlayFanfare(MUS_EVOLVED);
+            PlayFanfare(MUS_GSC_EVOLVED);
 
         if (sTradeData->timer == 250)
         {

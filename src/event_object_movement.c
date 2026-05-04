@@ -468,6 +468,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_RS_MAY                  0x1123
 #define OBJ_EVENT_PAL_TAG_EM_BRENDAN              0x1124
 #define OBJ_EVENT_PAL_TAG_EM_MAY                  0x1125
+#define OBJ_EVENT_PAL_TAG_JANINE                  0x1126
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 #include "data/object_events/object_event_graphics_info_pointers.h"
@@ -515,6 +516,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_EmeraldBrendan,        OBJ_EVENT_PAL_TAG_EM_BRENDAN},
     {gObjectEventPal_EmeraldMay,            OBJ_EVENT_PAL_TAG_EM_MAY},
     {gObjectEventPal_SSAqua,                OBJ_EVENT_PAL_TAG_SS_AQUA},
+    {gObjectEventPal_Janine,                OBJ_EVENT_PAL_TAG_JANINE},
     {NULL,                                  0x0000},
 };
 
